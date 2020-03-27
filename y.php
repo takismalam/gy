@@ -24,7 +24,7 @@ echo "\n";
 				  echo "\e[93m      ║\e[94m          TAKISMALAM           \e[93m║\n";
 				  echo "\e[93m      ╚══════════════════════════════════╝\n";
                   echo "\e[93m      ╔══════════════════════════════════╗\n";
-                  echo "\e[93m      ║            Terimakasih           ║\n";
+                  echo "\e[93m      ║         Terimakasih           ║\n";
                   echo "\e[93m      ║     THANKS TO TAKISMOMMY      ║\n";
                   echo "\e[93m      ║          TAKISKOT             ║\n";
                   echo "\e[93m      ╚══════════════════════════════════╝\n";
