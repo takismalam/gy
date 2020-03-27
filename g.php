@@ -59,7 +59,7 @@ echo " ===========================\n";
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
-        sleep(1);
+        sleep(10);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGORIDE"}');
         $message = fetch_value($code1,'"message":"','"');
@@ -103,7 +103,7 @@ echo " ===========================\n";
         echo color("yellow",".");
         sleep(1);
         }
-        sleep(15);
+        sleep(20);
         $goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD090320A"}');
         $message1 = fetch_value($goride,'"message":"','"');
         echo "\n".color("green","+] Message: ".$message1);
