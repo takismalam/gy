@@ -23,7 +23,7 @@ $pass =  ( '║ User Login : ' );
 echo "\033[30;40m";
 $user = trim(fgets(STDIN));
 echo "\033[0m";
-if($user == "yuhu" || $user == "86" || $user == "69" || $user == "02" || $user == "takis" || $user == "nod" || $user == "rop" || $user == "21")
+if($user == "y" || $user == "g" || $user == "gy" || $user == "rop" || $user == "nod" || $user == "takis" || $user == "malam" || $user == "yuhu")
 {
 	echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 	echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
@@ -74,7 +74,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
             $hp = '1'.substr(trim($nohp),0,13);
         }
     }
-        $data = '{"email":"'.$email.'@hotmail.com","name":"'.$nama.'","phone":"+'.$hp.'","signed_up_country":"ID"}';
+        $data = '{"email":"'.$email.'@gmail.com","name":"'.$nama.'","phone":"+'.$hp.'","signed_up_country":"ID"}';
         $register = request("/v5/customers", null, $data);
         if(strpos($register, '"otp_token"')){
         $otptoken = getStr('"otp_token":"','"',$register);
