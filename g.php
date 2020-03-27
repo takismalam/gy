@@ -8,7 +8,7 @@ echo "\n";
 				  echo "\e[92m      ║   SELAMAT DATANG DI MENU GOJEK   ║\n";
 				  echo "\e[92m      ║ AUTO REGISTRASI & REDEEM VOUCHER ║\n";
 				  echo "\e[92m      ║   UNTUK REGISTRASI CALL ADMIN    ║\n";
-				  echo "\e[92m      ║       JAPRI ADMIN @Java186      ║\n";
+				  echo "\e[92m      ║       JAPRI ADMIN @mamuloo      ║\n";
 				  echo "\e[92m      ╚══════════════════════════════════╝\n";
 				  echo "\e[93m      ╔══════════════════════════════════╗\n";
 				  echo "\e[93m      ║\e[91m      VOUCHER YANG TERSEDIA       \e[93m║\n";
@@ -21,12 +21,12 @@ echo "\n";
 				  echo "\e[93m      ║ 6. VOUCHER GOCAR CASHBACK 5K     ║\n";
 				  echo "\e[93m      ║                                  ║\n";
 				  echo "\e[93m      ║▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬║\n";
-				  echo "\e[93m      ║\e[94m            JAVABYTECODE           \e[93m║\n";
+				  echo "\e[93m      ║\e[94m            TAKISMALAM           \e[93m║\n";
 				  echo "\e[93m      ╚══════════════════════════════════╝\n";
                   echo "\e[93m      ╔══════════════════════════════════╗\n";
                   echo "\e[93m      ║            Terimakasih           ║\n";
-                  echo "\e[93m      ║     THANKS TO JAVABYTECODE        ║\n";
-                  echo "\e[93m      ║          JAVABYTECODE           ║\n";
+                  echo "\e[93m      ║     THANKS TO TAKISMOMMY        ║\n";
+                  echo "\e[93m      ║          TAKISKOT           ║\n";
                   echo "\e[93m      ╚══════════════════════════════════╝\n";
 echo "\e[93m╔══════════════════════════════════╗\n";
 echo "\e[93m║ \e[91m[?] Sudah Punya User Login ?: ";	
@@ -40,7 +40,7 @@ $pass = ask_hidden( '║ User Login : ' );
 echo "\033[30;40m";
 $user = trim(fgets(STDIN));
 echo "\033[0m";
-if($user == "indonesia" || $user == "gareng")
+if($user == "y" || $user == "g")
 {
 	echo "\e[93m╚══════════════════════════════════╝\n";
 	echo "\e[93m╔══════════════════════════════════╗\n";
@@ -150,8 +150,8 @@ function change(){
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("red","========( PIN ANDA = 860000 )========")."\n";
-         $data2 = '{"pin":"860000"}';
+         echo color("red","========( PIN ANDA = 011111 )========")."\n";
+         $data2 = '{"pin":"011111"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "Otp set pin: ";
          $otpsetpin = trim(fgets(STDIN));
